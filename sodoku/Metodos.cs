@@ -8,6 +8,7 @@ namespace sodoku
 {
     public  class Metodos
     {
+      //esta es una prueba
         public static int ct = 0;
         public static void CreaGrupos(ref Dictionary<int, Grupo> grupos)
         {
