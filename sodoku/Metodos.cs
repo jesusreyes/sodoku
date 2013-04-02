@@ -12,6 +12,7 @@ namespace sodoku
         public static int ct = 0;
         public static void CreaGrupos(ref Dictionary<int, Grupo> grupos)
         {
+            //esta es otra prueba
             grupos = BuildDictionary();
         }
 
@@ -29,7 +30,7 @@ namespace sodoku
             }
             return grupos;
         }
-
+        //Una orueba mas
         private static void AddToDictionary(Dictionary<int, Grupo> grupos, int num, int pos, int key, int valor)
         {
             Grupo grupo = new Grupo();
